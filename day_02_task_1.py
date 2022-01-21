@@ -1,4 +1,4 @@
-# print("task_1 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
+print("task_1 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
 two_digit_number = input("Type a two digit number: ")
 print(type(two_digit_number))
 a = int(two_digit_number[0])

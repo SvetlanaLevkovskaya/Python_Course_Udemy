@@ -1,3 +1,4 @@
+print("task_3 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
 age = input("What's your current age? ")
 days = (90 - int(age)) * 365
 weeks = (90 - int(age)) * 52

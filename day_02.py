@@ -66,10 +66,3 @@ isWinning = True
 
 print("F String in Python ++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
 print(f"Your score is {score} your height is {height} and you are winning is {isWinning}")
-
-
-
-
-
-
-
