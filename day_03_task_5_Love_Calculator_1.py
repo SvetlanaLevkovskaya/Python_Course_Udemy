@@ -25,12 +25,12 @@ check_V = (name1 + name2).upper().count('V')
 check_E = (name1 + name2).upper().count('E')
 check_LOVE = int(check_L+check_O+check_V+check_E)
 # print(check_LOVE)
-love_score = str(check_TRUE) + str(check_LOVE)
-print(type(love_score))
+love_score = int(str(check_TRUE) + str(check_LOVE))
+#print(type(love_score))
 
-if int(love_score) < 10 or int(love_score) > 90:
+if love_score < 10 or love_score > 90:
     print(f"Your score is {love_score}, you go together like coke and mentos.")
-elif int(love_score) >= 40 and int(love_score) <= 50:
+elif love_score >= 40 and love_score <= 50:
     print(f"Your score is {love_score}, you are alright together.")
 else:
     print(f"Your score is {love_score}.")
