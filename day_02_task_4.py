@@ -18,8 +18,8 @@ print(a)
 # 13.946
 print("%.2f" % a)
 # 13.95
-round(a,2)
-# 13.949999999999999
+print(round(a, 2))
+# 13.95
 print("%.2f" % round(a, 2))
 # 13.95
 print("{:.2f}".format(a))
