@@ -1,2 +1,94 @@
 def my_function():
-    print('')
+    print("Hello")
+# print("Bye")
+
+my_function()
+
+
+# def turn_right():
+#     turn_left()
+#     turn_left()
+#     turn_left()
+#
+#
+# def jump():
+#     move()
+#     turn_left()
+#     move()
+#     turn_right()
+#     move()
+#     turn_right()
+#     move()
+#     turn_left()
+#
+#
+# for step in range(6):
+#     jump()
+
+
+# while at_goal != True:
+#     jump()
+
+# while not at_goal():
+#     jump()
+
+
+# FOR
+#
+# for item in list_of_item:
+#     # Do something to each item
+# for number in range(a, b):
+#     print(number)
+#
+# WHILE
+#
+# while something_is_true:
+#     # Do something repeatedly
+
+
+# def turn_right():
+#     turn_left()
+#     turn_left()
+#     turn_left()
+#
+#
+# def jump():
+#     turn_left()
+#     move()
+#     turn_right()
+#     move()
+#     turn_right()
+#     move()
+#     turn_left()
+#
+#
+# while not at_goal():
+#     if wall_in_front():
+#         jump()
+#     else:
+#         move()
+
+
+def turn_right():
+    turn_left()
+    turn_left()
+    turn_left()
+
+
+def jump():
+    turn_left()
+    while wall_on_right():
+        move()
+    turn_right()
+    move()
+    turn_right()
+    while front_is_clear():
+        move()
+    turn_left()
+
+
+while not at_goal():
+    if wall_in_front():
+        jump()
+    else:
+        move()
