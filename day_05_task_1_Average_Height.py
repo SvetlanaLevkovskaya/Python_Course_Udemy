@@ -28,6 +28,11 @@ for n in range(0, len(student_heights)):
 # print(number_of_students)
 # print(round(total_height/number_of_students))
 
+# total_height = sum(student_heights)
+# number_of_student = len(student_heights)
+# average = total_height/number_of_student
+# print(average)
+
 
 total_height = 0
 number_of_students = 0
