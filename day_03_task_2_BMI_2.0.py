@@ -3,6 +3,7 @@ weight = float(input("enter your weight in kd: "))
 bmi = round(weight / height ** 2, 0)
 if bmi < 18.5:
     print(f"Your BMI is {bmi}, you are underweight.")
+    print("Your BMI is", bmi, "you are underweight.")
 elif bmi == 18.5 or bmi < 25:      # elif bmi < 25
     print(f"Your BMI is {bmi}, you have a normal weight.")
 elif bmi == 25 or bmi < 30:        # elif bmi < 30

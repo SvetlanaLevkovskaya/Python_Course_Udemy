@@ -8,7 +8,7 @@ if size == 'S':
     bill += 15
 elif size == 'M':
     bill += 20
-elif size == 'L':
+else: #size == 'L':
     bill += 25
 
 if add_pepperoni == 'Y':
