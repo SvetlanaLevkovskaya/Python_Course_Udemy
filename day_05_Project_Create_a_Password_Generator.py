@@ -25,8 +25,9 @@ for number_of_letters in range(1, nr_letters+1):
 for number_of_symbols in range(1,nr_symbols + 1):
     password += random.choice(symbols)
 
-for number_of_numbers in range(1, nr_numbers + 1):
+for number_of_numbers in range(0, nr_numbers + 1):
     password += random.choice(numbers)
+    # print(range(0, nr_numbers + 1))
 
 print(f"Here is you password_random_string: {password}")
 
