@@ -58,10 +58,31 @@ print(add(1, 2))
 for _ in range(5):
     print(_)
 
-n = 1
-while n < 10:
-    if n % 2 == 0:
-        continue
-    print(n)
+print("-" * 60)
+
+
+def outer_function(a, b):
+    def inner_function(c, d):
+        return c + d
+    return inner_function(a, b)
+
+
+result = outer_function(5, 10)
+print(result)
+
+print("-" * 60)
+
+
+def my_function(a):
+    if a < 40:
+        return
+        print("Terrible")
+    if a < 80:
+        return "Pass"
+    else:
+        return "Great"
+    
+
+print(my_function(25))
 
 
