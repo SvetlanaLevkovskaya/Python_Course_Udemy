@@ -47,3 +47,21 @@ order = {
 print(order["main"][2])
 print(order["main"][2][0])
 # print(order["dessert" - 1][2][0])  # incorrect
+
+
+def add(n1, n2):
+    return n1 + n2
+
+
+print(add(1, 2))
+
+for _ in range(5):
+    print(_)
+
+n = 1
+while n < 10:
+    if n % 2 == 0:
+        continue
+    print(n)
+
+
