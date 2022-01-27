@@ -4,7 +4,7 @@ def prime_checker(number):
         if number % i == 0:
             is_prime = False
 
-        print(is_prime)
+    print(is_prime)
     # if is_prime:
     #     print("It's a prime number.")
     # else:
