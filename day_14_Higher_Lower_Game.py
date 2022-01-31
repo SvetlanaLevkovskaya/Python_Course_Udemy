@@ -1,7 +1,7 @@
 from day_14_art import logo, vs
 from game_data import data
 import random
-from replit import clear
+# from replit import clear
 
 
 def format_data(account):
@@ -65,21 +65,3 @@ while game_should_continue:
     else:
         game_should_continue = False
         print(f"Sorry, that's wrong. Final score: {score}.")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
