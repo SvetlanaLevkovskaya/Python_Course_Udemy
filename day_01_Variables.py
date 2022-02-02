@@ -11,7 +11,7 @@
 # print(len(a))
 
 # 4
-# print( len( input('What is your name? ') ) )
+# print(len(input('What is your name? ')))
 
 # 5
 # name = input("What is your name? ")
