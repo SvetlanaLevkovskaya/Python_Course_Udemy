@@ -9,6 +9,7 @@ row1 = ["⬜", "⬜", "⬜"]
 row2 = ["⬜", "⬜", "⬜"]
 row3 = ["⬜", "⬜", "⬜"]
 map = [row1, row2, row3]
+print(map)
 # print(map[0][0])
 # print(map[0][1])
 # print(map[0][2])
@@ -21,7 +22,7 @@ map = [row1, row2, row3]
 # print(type(map))
 position = input("Where do you want to put the treasure? ")
 position_convert = list(position[1] + position[0])
-# print(position_convert)
+print(position_convert)
 if position_convert == ['1', '1']:
     map[0][0] = 'x'
 elif position_convert == ['1', '2']:

@@ -13,8 +13,9 @@ number, either 0 or 1. Then use that number to print out Heads or Tails.
 e.g. 1 means Heads 0 means Tails'''
 
 
-test_seed = int(input("Create a seed number: "))
-random.seed(test_seed)
+# test_seed = int(input("Create a seed number: "))
+# random.seed(test_seed)
+
 
 a = random.randint(0, 1)
 if a == 1:

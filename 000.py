@@ -1,13 +1,14 @@
-height = int(input("What is your height in cm? "))
+# определить является ли число простым (простое число делится на себя и единицу: 2, 3, 5, 7, 11, 13,
+a = int(input("Enter a number: "))
+k = 0
+divider = []
 
-if height >= 120:
-    print("You can ride the rollercoster!")
-    age = int(input("What's is your age? "))
-    if age < 12:
-        print("Please pay $5. ")
-    elif age <= 18:
-        print("Please pay $7.")
-    else:
-        print("Please pay $12.")
+for i in range(1, a + 1):
+    if a % i == 0:
+        k += 1     # находим количество делителей нашего числа а
+        divider.append(i)
+if k == 2:
+    print("Simple number")
 else:
-    print("Sorry, you have to grow taller before you can ride.")
+    print("It is not a simple number")
+    print(divider)  # выводим все делители

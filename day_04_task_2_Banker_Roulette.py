@@ -17,10 +17,11 @@ print(test_seed)
 
 names_string = input("Give me everybody's names, separated by a comma. ")
 names = names_string.split(", ")
+print(names, type(names))
 
-print(names)
 length_of_list = len(names)
-random_choice = random.randint(0, length_of_list-1)
-random_name = names[random_choice]
-# random_names = random.choice(names)
+print('length_of_list = ',  length_of_list)
+
+random_index = random.randint(0, length_of_list-1)
+random_name = names[random_index]
 print(f"{random_name} is going to buy the meal today!")
