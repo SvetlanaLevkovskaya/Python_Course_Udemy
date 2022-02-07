@@ -1,9 +1,9 @@
 # Step 5
 import random
 
-# TODO-1: - Update the word list to use the 'word_list' from hangman_words.py
+# TODO-1: - Update the word list to use the 'word_list' from day_07_hangman_words.py
 # Delete this line: word_list = ["ardvark", "baboon", "camel"]
-from hangman_words import word_list
+from day_07_hangman_words import word_list
 
 chosen_word = random.choice(word_list)
 word_length = len(chosen_word)
@@ -11,8 +11,8 @@ word_length = len(chosen_word)
 end_of_game = False
 lives = 6
 
-# TODO-3: - Import the logo from hangman_art.py and print it at the start of the game.
-from hangman_art import logo
+# TODO-3: - Import the logo from day_07_hangman_art.py and print it at the start of the game.
+from day_07_hangman_art import logo
 
 print(logo)
 
@@ -56,8 +56,8 @@ while not end_of_game:
         end_of_game = True
         print("You win.")
 
-    # TODO-2: - Import the stages from hangman_art.py and make this error go away.
-    from hangman_art import stages
+    # TODO-2: - Import the stages from day_07_hangman_art.py and make this error go away.
+    from day_07_hangman_art import stages
 
     print(stages[lives])
 

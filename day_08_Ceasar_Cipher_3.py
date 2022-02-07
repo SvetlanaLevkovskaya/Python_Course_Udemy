@@ -1,4 +1,4 @@
-from art import logo
+from day_08_art import logo
 
 print(logo)
 
