@@ -64,6 +64,8 @@ travel_log1 = {
 
 }
 
+print('travel_log1 = ',   travel_log1["France"]["total_visits"])
+
 # Nesting Dictionary in a List
 travel_log2 = [
     {
@@ -79,3 +81,4 @@ travel_log2 = [
 
 ]
 
+print('travel_log2 = ',   travel_log2[1]["cities_visited"][1])

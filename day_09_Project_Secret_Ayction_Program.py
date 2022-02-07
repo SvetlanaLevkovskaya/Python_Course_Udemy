@@ -1,7 +1,7 @@
 from replit import clear
 #HINT: You can call clear() to clear the output in the console.
 
-from art1 import logo
+from day_09_art import logo
 
 print(logo)
 
