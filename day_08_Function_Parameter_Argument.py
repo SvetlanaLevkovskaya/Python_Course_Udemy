@@ -15,9 +15,11 @@ greet('Viktor')
 print("*" * 60)
 # Function with more than 1 input
 
+
 def greet_with(name, location):
     print(f"Hello {name}")
     print(f"What is it like in {location}")
+
 
 greet_with("Svetlana", "Minsk")
 print("*" * 60)
@@ -30,5 +32,6 @@ print("*" * 60)
 def greet_with1(name, location):
     print("Hello", name)
     print("What is it like in ", location)
+
 
 greet_with1( location='Minsk', name='Svetlana')
